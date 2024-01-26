@@ -1,0 +1,27 @@
+.contenedor{
+    background-color: var(--white);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding: 25px;
+}
+.title{
+    color: var(--light_black);
+    margin-bottom: 30px;
+}
+.nombre{
+    color: var(--blue);
+    text-transform: capitalize;
+}
+.id{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+    color:var(--light_purple);
+    font-weight: bold;
+}
+.id img{
+    object-fit: cover;
+}
